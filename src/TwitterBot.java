@@ -75,7 +75,7 @@ public class TwitterBot {
 
         twitBot.twitter = new TwitterFactory().getInstance();
         //
-        twitBot.twitter.setOAuthConsumer("MblgKNZLPExCpUumJoVig", "mQUIDVTtv7SMHzvESYXVjFdOZgJo9DtS0zj6j2c8g");
+        twitBot.twitter.setOAuthConsumer("[CONSUMER KEY]" , "[ACCESS TOKEN]");
         RequestToken requestToken = twitBot.twitter.getOAuthRequestToken();
         twitBot.accessToken = null;
 
